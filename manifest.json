@@ -1,16 +1,16 @@
 {
   "name": "أطلس الأحياء",
   "short_name": "أطلس الأحياء",
-  "description": "تعلّم رسومات علم الأحياء بالتفاعل",
-  "dir": "rtl",
-  "lang": "ar",
-  "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1B5E3B",
-  "background_color": "#FAFCFB",
+  "description": "تعلّم رسومات علم الأحياء بالتفاعل، لا بالحفظ الأعمى",
   "start_url": "./",
   "scope": "./",
-  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#EEF1E8",
+  "theme_color": "#1E2A1F",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["education", "books", "reference", "productivity"],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -19,6 +19,12 @@
       "purpose": "any"
     },
     {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
@@ -28,13 +34,23 @@
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "الصفحة الرئيسية"
     },
     {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
+      "src": "screenshots/screenshot2.png",
+      "sizes": "1080x1920",
       "type": "image/png",
-      "purpose": "maskable"
+      "form_factor": "narrow",
+      "label": "واجهة الطالب"
     }
   ]
 }

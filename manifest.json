@@ -1,12 +1,40 @@
 {
-  "background_color": "#ffffff",
+  "name": "أطلس الأحياء",
+  "short_name": "أطلس الأحياء",
   "description": "تعلّم رسومات علم الأحياء بالتفاعل",
-  "dir": "ltr",
+  "dir": "rtl",
+  "lang": "ar",
   "display": "standalone",
-  "name": "kiiujuu0-bot.github",
   "orientation": "any",
-  "scope": "/",
-  "short_name": "kiiujuu0-bot.github",
-  "start_url": "/",
-  "theme_color": "#1B5E3B"
+  "theme_color": "#1B5E3B",
+  "background_color": "#FAFCFB",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }

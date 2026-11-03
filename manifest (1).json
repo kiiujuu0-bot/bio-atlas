@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "description": "تعلّم رسومات علم الأحياء بالتفاعل",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "kiiujuu0-bot.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "kiiujuu0-bot.github",
+  "start_url": "/",
+  "theme_color": "#1B5E3B"
+}

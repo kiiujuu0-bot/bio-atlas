@@ -3280,11 +3280,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <script>
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./pwabuilder-sw.js')
-        .then(reg => console.log('SW registered'))
-        .catch(err => console.log('SW failed', err));
-    });
+    navigator.serviceWorker.register('./pwabuilder-sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch(err => console.log('SW Error:', err));
   }
 </script>
 

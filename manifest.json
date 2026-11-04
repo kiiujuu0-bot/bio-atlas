@@ -10,7 +10,7 @@
   "theme_color": "#1E2A1F",
   "dir": "rtl",
   "lang": "ar",
-  "categories": ["education", "books", "reference", "productivity"],
+  "categories": ["education", "books", "reference"],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -35,22 +35,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshots/screenshot1.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "الصفحة الرئيسية"
-    },
-    {
-      "src": "screenshots/screenshot2.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "واجهة الطالب"
     }
   ]
 }

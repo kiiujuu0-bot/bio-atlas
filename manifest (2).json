@@ -1,0 +1,32 @@
+{
+  "name": "أطلس الأحياء",
+  "short_name": "أطلس الأحياء",
+  "description": "تطبيق لحفظ رسومات علم الأحياء",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "ar",
+  "dir": "rtl",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1B5E3B",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
